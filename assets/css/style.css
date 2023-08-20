@@ -354,12 +354,13 @@ body:not(.dsn-cursor-effect) #dsn_cursor, body:not(.dsn-cursor-effect) #dsn_curs
 .day-night {
   position: fixed;
   z-index: 100;
-  top: 20px;
+  top: 65px;
   left: 25px;
   width: 30px;
   height: 30px;
   cursor: pointer;
   text-align: center;
+  display: none;
 }
 .day-night svg {
   width: 30px;
@@ -1418,7 +1419,8 @@ a:hover, a:active {
 }
 
 .main-brand img, .dsnload__img img {
-  width: 80px;
+  /* width: 80px; */
+  width: 125px;
   max-width: 100%;
   height: auto;
 }
